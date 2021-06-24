@@ -1,0 +1,1 @@
+//export { CajachicaController } from './cajachica.controller'

@@ -1,0 +1,29 @@
+import { Module } from '@nestjs/common';
+import { 
+    _TRAZAESTADISTICASYSTEMACHEMA, 
+    _TRAZANEGOCIOSYSTEMACHEMA, 
+    _TRAZAPAGOSYSTEMACHEMA, 
+    _TRAZARUTASYSTEMACHEMA,
+    _TRAZACAJACHSYSTEMACHEMA 
+
+} from './schemas/index.schema';
+
+@Module({
+    imports:
+    [
+        _TRAZANEGOCIOSYSTEMACHEMA,
+        _TRAZAESTADISTICASYSTEMACHEMA,
+        _TRAZAPAGOSYSTEMACHEMA,
+        _TRAZARUTASYSTEMACHEMA,
+        _TRAZACAJACHSYSTEMACHEMA
+    ],
+    exports:
+    [
+        _TRAZANEGOCIOSYSTEMACHEMA,
+        _TRAZAESTADISTICASYSTEMACHEMA,
+        _TRAZAPAGOSYSTEMACHEMA,
+        _TRAZARUTASYSTEMACHEMA,
+        _TRAZACAJACHSYSTEMACHEMA
+    ]
+})
+export class Estadisticas_ModelsModule {}

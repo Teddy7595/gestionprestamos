@@ -1,0 +1,1 @@
+//export { referidoResponse, referidoClassResponse } from "./response.interface";

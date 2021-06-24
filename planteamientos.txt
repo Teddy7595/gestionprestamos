@@ -1,0 +1,40 @@
+
+Novedades
+
+-Control de usuarios: Administración cuenta con un listados de usuarios y una vista de detalle de cada uno
+-Control de roles: Ahora por medio de administración se podrá cambiar de forma manual el rol de una persona, por ejemplo de Usuario Default a Enrutador.
+-Eliminación de usuarios: Administración ahora podrá eliminar usuarios a través de las opciones de control de usuario.
+
+
+-Registro por referencia de enrutador: Ahora los enrutadores van a poder registrar a sus cobradores, enviandoles un link personalizado a estos para que se registren bajo su control.
+
+-Listado de cobradores: Los enrutadores tendrán un control de usuarios donde se van a listar los cobradores que estan bajo su control y una vista de detalle de cada uno.
+-Control de rutas: Los enrutadores podrán crear rutas especificando un nombre para la ruta, ciudad y departamento.
+-Creación de cliente: Los enrutadores podrán crear clientes o puntos de cobro que van a formar parte de una ruta, especificando datos requeridos del cliente, como por ejemplo, el nombre, apellido edad, identificación, cantidad total prestada, porcentaje de ganancia para el prestamo, concurrencia de cobro (si es diario, semanal, mensual, o personalizado), dirección de domicilio.
+-Asignación de cobrador: Los enrutadores tienen la capacidad de asignar a un cobrador determinado a un cliente o punto de cobro en una ruta. De esta manera una ruta se compondrá de muchos puntos de cobro y cada punto tendrá a un cobrador designado (nota: un cobrador puede tener todos los puntos de cobro que requieran, o sea no tienen limites)
+
+
+Próximos pasos pendientes (en lineas generales)
+
+-Cobrador: función de cobro a un cliente
+-Cobrador: posibilidad de Asignar punto de geo localización de un cliente al momento de cobrar
+-Todos: Estadisticas generales y busquedas de información
+-Todos: Notificaciones
+-Enrutador: Modificación de puntos de cobro o clientes
+-Administración y Enrutadores: Control de peticiones y permisos (por ejemplo cuando un cobrador necesita modificar un dato de cobro)
+-Versión para teléfonos moviles
+
+
+
+---------------------------------
+
+Si gustan hacer pruebas o echarle un vistazo
+Pueden registrarse a través de este link -> https://forgecode.xyz/register
+
+O también hacer uso de las siguientes cuentas de prueba
+Administrador
+administracion@gmail.com - 12345
+Enrrutador
+enrutador@gmail.com - 12345
+Cobrador
+cobrador@gmail.com - 12345

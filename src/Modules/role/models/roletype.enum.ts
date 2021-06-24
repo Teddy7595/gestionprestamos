@@ -1,0 +1,14 @@
+export enum RoleType 
+{
+  DEFAULT_ROLE    = 'DEFAULT_ROLE', 
+  ADMIN_ROLE      = 'ADMIN_ROLE', 
+  ENRUTATOR_ROLE  = 'ENRUTATOR_ROLE', 
+  COLLECTOR_ROLE  = 'COLLECTOR_ROLE'
+}
+
+
+
+
+
+
+

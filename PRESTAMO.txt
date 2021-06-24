@@ -1,0 +1,16 @@
+*Schema con moldes para cierto casos en la bitacora de admin
+id
+enum tipoDeMovimiento
+detalles
+quien lo hizo
+cuando lo hizo
+
+*Schema para licencias
+id
+nonbre
+duracion
+fecha de creacion
+usuario_asignado
+admin_vendedor
+precio
+estado (active, paused, removed)

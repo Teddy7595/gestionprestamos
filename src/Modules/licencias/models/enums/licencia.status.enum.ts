@@ -1,0 +1,11 @@
+export enum STATUS 
+{
+    PENDIENTE  = "PENDIENTE",
+    ASIGNADO   = "ASIGNADO",
+    CANCELADA  = "CANCELADA",
+    INDEFINIDO = "INDEFINIDO",
+    CADUCADO   = "CADUCADO",
+    VIGENTE    = "VIGENTE",
+    ACTIVE	   = "ACTIVE",
+    INACTIVE   = "INACTIVE"
+}
